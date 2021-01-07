@@ -35,10 +35,10 @@ export const Miami = () => {
 				);
 			})}
 			<button className="leftButton" onClick={goLeft}>
-				left
+				<i className="fas fa-chevron-left" />
 			</button>
 			<button className="rightButton" onClick={goRight}>
-				right
+				<i className="fas fa-chevron-right" />
 			</button>
 		</div>
 	);
