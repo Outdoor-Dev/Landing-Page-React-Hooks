@@ -69,3 +69,12 @@ i{
     color:whitesmoke;
     font-size:30px;
 }
+.title{
+      position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:120px;
+  color:white;
+  -webkit-text-stroke:5px  black;
+}
