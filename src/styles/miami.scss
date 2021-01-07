@@ -23,6 +23,11 @@
     overflow:hidden;
 
 }
+button{
+    &:focus{
+        outline:none;
+    }
+}
 .leftButton{
     position:absolute;
     top:50%;
@@ -34,6 +39,7 @@
     &:hover{
         background:rgba(0,0,0,0.356);
     }
+   
     cursor:pointer;
     border: none;
     background:none;
