@@ -5,11 +5,11 @@ export const Balloon = () => {
 		<>
 			<img
 				className="balloon"
-				src="https://extrevity.com/wp-content/uploads/2015/09/hot-air-balloons-together-in-the-sky.jpg"
+				src="https://rarlomagazine.com.au/wp-content/uploads/2018/04/DJI_0017-2-copy.jpg"
 			/>
-			<form action="http://orlandohotairballoon.com/" target="_blank">
+			<form action="https://www.southfloridapaddle.com/" target="_blank">
 				<button className="balloonButton" type="submit">
-					Hot Air Balloons
+					WaterSports
 				</button>
 			</form>
 		</>

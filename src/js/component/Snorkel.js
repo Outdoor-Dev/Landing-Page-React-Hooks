@@ -5,7 +5,7 @@ export const Snorkel = () => {
 		<>
 			<img
 				className="snorkel"
-				src="https://djmag.com/sites/default/files/article/image/1_reHoHx6lwomAmiLquauKrw_0.jpg"
+				src="https://images.unsplash.com/photo-1546500840-ae38253aba9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2500&q=80"
 			/>
 			<form action="https://www.snorkelingisfun.com/" target="_blank">
 				<button className="coralReef" type="submit">
