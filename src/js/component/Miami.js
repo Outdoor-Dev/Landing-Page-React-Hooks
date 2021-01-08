@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Cover } from "./Cover";
 import { Wynwood } from "./Wynwood";
-import { Balloon } from "./Balloon";
-import { Snorkel } from "./Snorkel";
+import { Watersports } from "./Watersports";
+import { NightLife } from "./NightLife";
 import { Everglades } from "./Everglades";
 
 export const Miami = () => {
@@ -10,8 +10,8 @@ export const Miami = () => {
 	let miamiArr = [
 		<Cover key={1} />,
 		<Wynwood key={2} />,
-		<Snorkel key={3} />,
-		<Balloon key={4} />,
+		<NightLife key={3} />,
+		<Watersports key={4} />,
 		<Everglades key={5} />
 	];
 
