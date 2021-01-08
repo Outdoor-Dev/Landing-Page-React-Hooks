@@ -19,7 +19,7 @@
      border-bottom:1px solid white;
     min-width:100%;
     height: 80%;
-    transition:2s;
+    transition:1s;
     overflow:hidden;
 
 }
@@ -73,14 +73,135 @@ img{
 }
 i{
     color:whitesmoke;
-    font-size:30px;
+    font-size:35px;
 }
-.title{
-      position: absolute;
+
+.title {
+         position: absolute;
   top: 50%;
   left: 50%;
+   font-weight:900;
   transform: translate(-50%, -50%);
-  font-size:120px;
+  font-size:90px;
   color:white;
   -webkit-text-stroke:5px  black;
+   
+   
+    div {
+        overflow: hidden;
+        position: relative;
+        margin-left:250px;
+        float: right;
+        height: 100px;
+        padding-top: -3px;
+        margin-top: -110px;
+        font-weight:900;
+        li {
+            
+           
+            padding: 0 10px;
+            height: 45px;
+            margin-bottom: 45px;
+            display: block;
+        }
+    }
+}
+.flip3 { animation: flip3 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+.wynwoodButton{
+         position: absolute;
+ top: 30%;
+  left: 28%;
+   font-weight:900;
+  font-size:90px;
+  color:white;
+ -webkit-text-stroke:5px  black;
+  
+    width:50%;
+    height: 40%;
+  
+    &:hover{
+        background:rgba(0,0,0,0.356);
+    }
+   
+    cursor:pointer;
+    border: none;
+    background:none;
+    outline:none;
+   
+
+}
+.coralReef{
+             position: absolute;
+ top: 30%;
+  left: 28%;
+  font-size:90px;
+  font-weight:900;
+  color:white;
+ -webkit-text-stroke:5px  black;
+  
+    width:50%;
+    height: 40%;
+  
+    &:hover{
+        background:rgba(0,0,0,0.356);
+    }
+   
+    cursor:pointer;
+    border: none;
+    background:none;
+    outline:none;
+}
+.balloonButton{
+                 position: absolute;
+ top: 30%;
+  left: 28%;
+  font-size:90px;
+  font-weight:900;
+  color:white;
+ -webkit-text-stroke:5px  black;
+  
+    width:50%;
+    height: 40%;
+  
+    &:hover{
+        background:rgba(0,0,0,0.356);
+    }
+   
+    cursor:pointer;
+    border: none;
+    background:none;
+    outline:none;
+}
+.evergladesButton {
+
+          position: absolute;
+ top: 30%;
+  left: 28%;
+  font-size:90px;
+  font-weight:900;
+  color:white;
+ -webkit-text-stroke:5px  black;
+  
+    width:50%;
+    height: 40%;
+  
+    &:hover{
+        background:rgba(0,0,0,0.356);
+    }
+   
+    cursor:pointer;
+    border: none;
+    background:none;
+    outline:none;
 }

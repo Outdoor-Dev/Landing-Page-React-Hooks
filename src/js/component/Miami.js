@@ -8,11 +8,11 @@ import { Everglades } from "./Everglades";
 export const Miami = () => {
 	const [x, setX] = useState(0);
 	let miamiArr = [
-		<Cover key={<Cover />} />,
-		<Wynwood key={<Wynwood />} />,
-		<Snorkel key={<Snorkel />} />,
-		<Balloon key={<Balloon />} />,
-		<Everglades key={<Everglades />} />
+		<Cover key={1} />,
+		<Wynwood key={2} />,
+		<Snorkel key={3} />,
+		<Balloon key={4} />,
+		<Everglades key={5} />
 	];
 
 	const goLeft = () => {
