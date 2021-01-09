@@ -1,5 +1,16 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.navbar{
+    color:white;
+    position:fixed;
+    z-index:500;
+    margin-top:10px;
+    width:100%;
+   margin-left:600px;
+
+    
+}
+
 .miami{
     
     width: 100%;

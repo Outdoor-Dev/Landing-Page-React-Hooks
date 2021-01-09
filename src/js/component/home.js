@@ -5,6 +5,8 @@ import { Wynwood } from "./Wynwood";
 import { Watersports } from "./Watersports";
 import { NightLife } from "./NightLife";
 import { Everglades } from "./Everglades";
+import { Navbar } from "./Navbar";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 

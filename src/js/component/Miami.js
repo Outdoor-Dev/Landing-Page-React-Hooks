@@ -4,6 +4,7 @@ import { Wynwood } from "./Wynwood";
 import { Watersports } from "./Watersports";
 import { NightLife } from "./NightLife";
 import { Everglades } from "./Everglades";
+import { Navbar } from "./Navbar";
 
 export const Miami = () => {
 	const [x, setX] = useState(0);
@@ -22,24 +23,28 @@ export const Miami = () => {
 		x === -100 * (miamiArr.length - 1) ? setX(0) : setX(x - 100);
 	};
 	return (
-		<div className="miami">
-			{miamiArr.map((item, i) => {
-				return (
-					<div
-						key={i}
-						className="arr"
-						style={{ transform: `translateX(${x}%)` }}>
-						{" "}
-						{item}{" "}
-					</div>
-				);
-			})}
-			<button className="leftButton" onClick={goLeft}>
-				<i className="fas fa-chevron-left" />
-			</button>
-			<button className="rightButton" onClick={goRight}>
-				<i className="fas fa-chevron-right" />
-			</button>
-		</div>
+		<>
+			<Navbar />
+			<div className="miami">
+				{miamiArr.map((item, i) => {
+					return (
+						<div
+							key={i}
+							className="arr"
+							style={{ transform: `translateX(${x}%)` }}>
+							{" "}
+							{item}{" "}
+						</div>
+					);
+				})}
+
+				<button className="leftButton" onClick={goLeft}>
+					<i className="fas fa-chevron-left" />
+				</button>
+				<button className="rightButton" onClick={goRight}>
+					<i className="fas fa-chevron-right" />
+				</button>
+			</div>
+		</>
 	);
 };
