@@ -9,11 +9,14 @@ import { Navbar } from "./Navbar";
 export const Miami = () => {
 	const [x, setX] = useState(0);
 	let miamiArr = [
-		<Cover key={1} />,
+		<Cover key={1} className="what" />,
 		<Wynwood key={2} />,
-		<NightLife key={3} />,
 		<Watersports key={4} />,
-		<Everglades key={5} />
+		<NightLife key={3} />,
+
+		<Everglades key={5} />,
+
+		<NightLife key={3} />
 	];
 
 	const goLeft = () => {

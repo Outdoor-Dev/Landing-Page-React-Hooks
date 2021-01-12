@@ -5,7 +5,7 @@ export const NightLife = () => {
 		<>
 			<img
 				className="nightlife"
-				src="https://www.tripsavvy.com/thmb/PMbfJCaQ6kD58wdCMhGqg6Db-Xk=/2063x1453/filters:fill(auto,1)/GettyImages-200195198-001-593c85e43df78c537b650bee.jpg"
+				src="https://d34ojwe46rt1wp.cloudfront.net/wp-content/uploads/2014/11/miami_skyline.jpg"
 			/>
 			<form
 				action="https://www.miamiandbeaches.com/things-to-do/nightlife/south-beach-nightlife"
