@@ -14,9 +14,7 @@ export const Miami = () => {
 		<Watersports key={4} />,
 		<NightLife key={3} />,
 
-		<Everglades key={5} />,
-
-		<NightLife key={3} />
+		<Everglades key={5} />
 	];
 
 	const goLeft = () => {
