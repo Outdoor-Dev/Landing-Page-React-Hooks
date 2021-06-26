@@ -4,7 +4,7 @@ import { Wynwood } from "./Wynwood";
 import { Watersports } from "./Watersports";
 import { NightLife } from "./NightLife";
 import { Everglades } from "./Everglades";
-import { Navbar } from "./Navbar";
+/*import { Navbar } from "./Navbar";*/
 
 export const Miami = () => {
 	const [x, setX] = useState(0);
@@ -25,7 +25,6 @@ export const Miami = () => {
 	};
 	return (
 		<>
-			<Navbar />
 			<div className="miami">
 				{miamiArr.map((item, i) => {
 					return (

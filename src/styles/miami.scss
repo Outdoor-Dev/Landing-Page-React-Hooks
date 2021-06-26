@@ -69,14 +69,14 @@ button{
 }
 .rightButton{
        &:hover{
-        background:rgba(0,0,0,0.356);
+        background:rgba(0,0,0,0.500);
        
       
     }
     cursor:pointer;
     transition:0.5s;
      border: none;
-    background:none;
+    background-color: rgba(0,0,0,0.356);
     outline:none;
     position:absolute;
     top:50%;
